@@ -48,7 +48,9 @@ header p {
     padding: 15px;
     transition: transform 0.3s ease;
 }
-
+.body-h2{
+    font-size: 1.4rem;
+}
 .card:hover {
     transform: translateY(-10px);
 }

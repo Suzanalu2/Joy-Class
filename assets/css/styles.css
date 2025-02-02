@@ -68,6 +68,46 @@ main {
     margin-bottom: 1rem;
 }
 
+/* Estilo para o link de destaque na navegação */
+nav a.destaque {
+    background-color: #ff6b6b;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+nav a.destaque:hover {
+    background-color: #ff5252;
+    transform: scale(1.05);
+}
+
+/* Estilo para o call-to-action no conteúdo */
+.call-to-action {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-left: 4px solid #1a5f7a;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.call-to-action a {
+    color: #1a5f7a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid #1a5f7a;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.call-to-action a:hover {
+    background-color: #1a5f7a;
+    color: white;
+    text-decoration: none;
+}
+
 /* Galeria de imagens */
 .image-gallery {
     display: grid;
